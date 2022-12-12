@@ -1,0 +1,14 @@
+Êþº¾   4 < "org/apache/spark/ml/made/WithSpark  java/lang/Object  WithSpark.scala Lscala/reflect/ScalaSignature; bytesgU2q!QCQ!""!A#b
+Is!Bqc!B"B	CIA	Q*R1A%bV5uQNM]6-aB7bIT!!5d'BA/:l		"#ba.'qN]4MA	/ii3)1oY1mC&1:L(+4Jg.;%)qCA 	DV]&$X#2S"raA:rY&q
+'B'o[*fgNLwN\gFd7-F+!	3&-I	Q1+'D_:$X;]KG[*qCJ\CAQ1CAaN\5u}Q	a&`gB'o[?NHn _sqlc #()Lorg/apache/spark/sql/SQLContext; #org/apache/spark/ml/made/WithSpark$  MODULE$ %Lorg/apache/spark/ml/made/WithSpark$;  	   	 
+
+   _spark %()Lorg/apache/spark/sql/SparkSession;  
+   spark$ I(Lorg/apache/spark/ml/made/WithSpark;)Lorg/apache/spark/sql/SparkSession; $this spark     $Lorg/apache/spark/ml/made/WithSpark; this sqlc$ G(Lorg/apache/spark/ml/made/WithSpark;)Lorg/apache/spark/sql/SQLContext; sqlc ! 
+  " $init$ '(Lorg/apache/spark/ml/made/WithSpark;)V !org/apache/spark/sql/SparkSession & sparkContext !()Lorg/apache/spark/SparkContext; ( )
+ ' * ERROR , org/apache/spark/SparkContext . setLogLevel (Ljava/lang/String;)V 0 1
+ / 2 Code LineNumberTable LocalVariableTable MethodParameters 
+SourceFile RuntimeVisibleAnnotations ScalaInlineInfo ScalaSig        	 	 
+  4         ² ¶ °     	    4         ² ¶ °    	    4   /     *· °    5        6            7         4   1     ² ¶ °    5        6           	     4   /     *· #°    5        6            7      ! 
+  4   1     ² ¶ °    5        6            	 $ %  4   =     *¹  ¶ +-¶ 3±    5   
+    	   6            7      8     9       s  :      $ %      ! 
+     ;     

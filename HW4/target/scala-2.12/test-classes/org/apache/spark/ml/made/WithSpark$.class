@@ -1,0 +1,18 @@
+Êþº¾   4 R #org/apache/spark/ml/made/WithSpark$  java/lang/Object  WithSpark.scala )org/apache/spark/sql/SparkSession$Builder  !org/apache/spark/sql/SparkSession  Builder MODULE$ %Lorg/apache/spark/ml/made/WithSpark$; _spark #Lorg/apache/spark/sql/SparkSession; _sqlc !Lorg/apache/spark/sql/SQLContext; bitmap$0 B <clinit> ()V <init>  
+   _spark$lzycompute %()Lorg/apache/spark/sql/SparkSession;  	   "org/apache/spark/sql/SparkSession$  $Lorg/apache/spark/sql/SparkSession$;  	   builder -()Lorg/apache/spark/sql/SparkSession$Builder; ! "
+  # Simple Application % appName ?(Ljava/lang/String;)Lorg/apache/spark/sql/SparkSession$Builder; ' (
+  ) local[4] + master - (
+  . getOrCreate 0 
+  1  	  3 this java/lang/Throwable 6  
+  8 _sqlc$lzycompute #()Lorg/apache/spark/sql/SQLContext;  
+  < 
+sqlContext > ;
+ 	 ?  	  A : ;
+  C org/apache/spark/sql/SQLContext E
+    	  H Code StackMapTable LineNumberTable LocalVariableTable InnerClasses 
+SourceFile ScalaInlineInfo Scala 1      	               B      	    J         » · ±         J   “     >*YLÂ*´ ~‘  %*²  ¶ $&¶ *,¶ /¶ 2µ 4**´ €‘µ +Ã§ +Ã¿*´ 4°   1 6    K    ü 1 D 7 L              #  M       > 5        J   N     *´ ~‘  
+*· 9§ *´ 4°    K    C 	 L        M        5     : ;  J   w     2*YLÂ*´ ~‘  **¶ =¶ @µ B**´ €‘µ +Ã§ +Ã¿*´ B°   % *    K    ü % D 7 L        M       2 5      ;  J   N     *´ ~‘  
+*· D§ *´ B°    K    C F L        M        5        J   7     	*· G*³ I±    L   
+       M       	 5     N   
+   	 
+ 	 O     P            ; : ; Q    

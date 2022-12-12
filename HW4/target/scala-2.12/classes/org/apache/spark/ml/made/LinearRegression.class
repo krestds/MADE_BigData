@@ -1,0 +1,95 @@
+ ˛∫æ   4∑ )org/apache/spark/ml/made/LinearRegression  ≤Lorg/apache/spark/ml/Estimator<Lorg/apache/spark/ml/made/LinearRegressionModel;>;Lorg/apache/spark/ml/made/LinearRegressionParams;Lorg/apache/spark/ml/util/DefaultParamsWritable; org/apache/spark/ml/Estimator  /org/apache/spark/ml/made/LinearRegressionParams  .org/apache/spark/ml/util/DefaultParamsWritable  LinearRegression.scala Lscala/reflect/ScalaSignature; bytesúaaAB%	e	s	)AY!)!Cw!)!C}!)qC!")aC!/")C!C)!.EW)A"EY")!(Cm"9q/CA
+A('j]'OU3he8/[8o	qq"nC,'B		iGN')1]1sW*A#FCB7[3Y	1a:hBA"IA!dG=I!HH/[7bi>C iBUaN\3beJ+wM]3tg&|g.T8eK2"A
+j!A'j]'OU3he8/[8o!-\:BS"zB;uS2L!!++g-Y;miB'/Y7t/JLG/2mKQ/31"!9"CA3$BAa$o\8u})	1'AtGd-6e1K]3eKL!aM#(/8h	)$'vSAj]&$h={AaUya-;u	""a3biX	22!%K1%BA$\qR1uCN,GL2A!C'B	Q!OyF%M	N"U)IJ!A9{G[5oOBV+J1!8zw]=eA"B-Q!B3yiJCA._a&BA/M]1n	yFLQCJW.T1q=!(/8tM>XnU2iK6GC2i!	g-De	)g)AusB,7/hI
+Q1:vGR$]3	%<2M.Z7bAaN\3beJ+wM]3tg&|gM!"9t!	f.pe	1I\=SK2!J9=	hEAEKW;QCJWn*fC'\3A#BA;31VM]5bY&TM7f)Ya:fCVm]8mm$!	u~layvA\1oO*	a0kCZbAAw
+1qJ6fGR !breeze/generic/UFunc$InPlaceImpl2  breeze/generic/UFunc  InPlaceImpl2 breeze/generic/UFunc$UImpl2  UImpl2 "breeze/linalg/DenseVector$canDotD$  breeze/linalg/DenseVector  canDotD$ &breeze/linalg/package$InjectNumericOps  breeze/linalg/package  InjectNumericOps %java/lang/invoke/MethodHandles$Lookup   java/lang/invoke/MethodHandles " Lookup 9org/apache/spark/ml/made/LinearRegression$$typecreator1$1 % $typecreator1$1 *scala/collection/mutable/ArrayOps$ofDouble ( !scala/collection/mutable/ArrayOps * ofDouble )scala/reflect/api/JavaUniverse$JavaMirror - scala/reflect/api/JavaUniverse / 
+JavaMirror "scala/reflect/api/TypeTags$TypeTag 2 scala/reflect/api/TypeTags 4 TypeTag #scala/reflect/api/TypeTags$TypeTag$ 7 TypeTag$ uid Ljava/lang/String; iters $Lorg/apache/spark/ml/param/IntParam; learningRate 'Lorg/apache/spark/ml/param/DoubleParam; eps 	outputCol !Lorg/apache/spark/ml/param/Param; 5Lorg/apache/spark/ml/param/Param<Ljava/lang/String;>; inputCol read %()Lorg/apache/spark/ml/util/MLReader; R()Lorg/apache/spark/ml/util/MLReader<Lorg/apache/spark/ml/made/LinearRegression;>; *org/apache/spark/ml/made/LinearRegression$ H MODULE$ ,Lorg/apache/spark/ml/made/LinearRegression$; J K	 I L E F
+ I N load &(Ljava/lang/String;)Ljava/lang/Object; path P Q
+ I S write %()Lorg/apache/spark/ml/util/MLWriter; write$ U(Lorg/apache/spark/ml/util/DefaultParamsWritable;)Lorg/apache/spark/ml/util/MLWriter; W X 	 Y this +Lorg/apache/spark/ml/made/LinearRegression; save (Ljava/lang/String;)V java/io/IOException _ #org/apache/spark/ml/util/MLWritable a save$ :(Lorg/apache/spark/ml/util/MLWritable;Ljava/lang/String;)V c d b e setInputCol E(Ljava/lang/String;)Lorg/apache/spark/ml/made/LinearRegressionParams; value setInputCol$ v(Lorg/apache/spark/ml/made/LinearRegressionParams;Ljava/lang/String;)Lorg/apache/spark/ml/made/LinearRegressionParams; j k  l setOutputCol setOutputCol$ o k  p getIters ()I 	getIters$ 4(Lorg/apache/spark/ml/made/LinearRegressionParams;)I t u  v setIters 4(I)Lorg/apache/spark/ml/made/LinearRegressionParams; 	setIters$ e(Lorg/apache/spark/ml/made/LinearRegressionParams;I)Lorg/apache/spark/ml/made/LinearRegressionParams; z {  | I getLearningRate ()D getLearningRate$ 4(Lorg/apache/spark/ml/made/LinearRegressionParams;)D Å Ç  É setLearningRate 4(D)Lorg/apache/spark/ml/made/LinearRegressionParams; setLearningRate$ e(Lorg/apache/spark/ml/made/LinearRegressionParams;D)Lorg/apache/spark/ml/made/LinearRegressionParams; á à  â D getEps getEps$ ç Ç  é setEps setEps$ ë à  í validateAndTransformSchema P(Lorg/apache/spark/sql/types/StructType;)Lorg/apache/spark/sql/types/StructType; schema validateAndTransformSchema$ Å(Lorg/apache/spark/ml/made/LinearRegressionParams;Lorg/apache/spark/sql/types/StructType;)Lorg/apache/spark/sql/types/StructType; ó ò  ô 'Lorg/apache/spark/sql/types/StructType; getOutputCol ()Ljava/lang/String; -org/apache/spark/ml/param/shared/HasOutputCol û getOutputCol$ C(Lorg/apache/spark/ml/param/shared/HasOutputCol;)Ljava/lang/String; † ° ü ¢ getInputCol ,org/apache/spark/ml/param/shared/HasInputCol • getInputCol$ B(Lorg/apache/spark/ml/param/shared/HasInputCol;)Ljava/lang/String; ß ® ¶ © &()Lorg/apache/spark/ml/param/IntParam; < =	  ¨ )()Lorg/apache/spark/ml/param/DoubleParam; > ?	  Ø @ ?	  ± Borg$apache$spark$ml$made$LinearRegressionParams$_setter_$iters_$eq '(Lorg/apache/spark/ml/param/IntParam;)V x$1 Iorg$apache$spark$ml$made$LinearRegressionParams$_setter_$learningRate_$eq *(Lorg/apache/spark/ml/param/DoubleParam;)V @org$apache$spark$ml$made$LinearRegressionParams$_setter_$eps_$eq #()Lorg/apache/spark/ml/param/Param; 7()Lorg/apache/spark/ml/param/Param<Ljava/lang/String;>; A B	  ª Dorg$apache$spark$ml$param$shared$HasOutputCol$_setter_$outputCol_$eq $(Lorg/apache/spark/ml/param/Param;)V 8(Lorg/apache/spark/ml/param/Param<Ljava/lang/String;>;)V D B	  ¿ Borg$apache$spark$ml$param$shared$HasInputCol$_setter_$inputCol_$eq : ;	  √ fit P(Lorg/apache/spark/sql/Dataset;)Lorg/apache/spark/ml/made/LinearRegressionModel; S(Lorg/apache/spark/sql/Dataset<*>;)Lorg/apache/spark/ml/made/LinearRegressionModel; dataset 9org/apache/spark/sql/catalyst/encoders/ExpressionEncoder$ … ;Lorg/apache/spark/sql/catalyst/encoders/ExpressionEncoder$; J À	   Ã scala/reflect/runtime/package$ Œ  Lscala/reflect/runtime/package$; J –	 œ — universe "()Lscala/reflect/api/JavaUniverse; ” ‘
+ œ ’ java/lang/Class ◊ getClassLoader ()Ljava/lang/ClassLoader; Ÿ ⁄
+ ÿ € runtimeMirror D(Ljava/lang/ClassLoader;)Lscala/reflect/api/JavaUniverse$JavaMirror; › ﬁ 0 ﬂ '()Lscala/reflect/api/TypeTags$TypeTag$; 6 · 5 ‚ scala/reflect/api/Mirror ‰ <init> .(Lorg/apache/spark/ml/made/LinearRegression;)V Ê Á
+ & Ë apply _(Lscala/reflect/api/Mirror;Lscala/reflect/api/TypeCreator;)Lscala/reflect/api/TypeTags$TypeTag; Í Î
+ 8 Ï `(Lscala/reflect/api/TypeTags$TypeTag;)Lorg/apache/spark/sql/catalyst/encoders/ExpressionEncoder; Í Ó
+   Ô D π
+  Ò $ 5(Lorg/apache/spark/ml/param/Param;)Ljava/lang/Object; Û Ù
+  ı java/lang/String ˜ org/apache/spark/sql/Dataset ˘ 1(Ljava/lang/String;)Lorg/apache/spark/sql/Column; Í ˚
+ ˙ ¸ org/apache/spark/sql/Column ˛ as B(Lorg/apache/spark/sql/Encoder;)Lorg/apache/spark/sql/TypedColumn; 
+ ˇ select B(Lorg/apache/spark/sql/TypedColumn;)Lorg/apache/spark/sql/Dataset;
+ ˙ -org/apache/spark/ml/attribute/AttributeGroup$ /Lorg/apache/spark/ml/attribute/AttributeGroup$; J
+		 )()Lorg/apache/spark/sql/types/StructType; ñ
+ ˙ %org/apache/spark/sql/types/StructType <(Ljava/lang/String;)Lorg/apache/spark/sql/types/StructField; Í
+ fromStructField X(Lorg/apache/spark/sql/types/StructField;)Lorg/apache/spark/ml/attribute/AttributeGroup;
+	 ,org/apache/spark/ml/attribute/AttributeGroup numAttributes ()Lscala/Option;
+ s $anonfun$fit$1 !(Lorg/apache/spark/sql/Dataset;)I !
+ "#       scala/Serializable' "java/lang/invoke/LambdaMetafactory) altMetafactory Ü(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;+,
+*-. apply$mcI$sp G(Lorg/apache/spark/sql/Dataset;)Lscala/runtime/java8/JFunction0$mcI$sp;01  2 scala/Option4 	getOrElse %(Lscala/Function0;)Ljava/lang/Object;67
+58 scala/runtime/BoxesRunTime: 
+unboxToInt (Ljava/lang/Object;)I<=
+;> breeze/linalg/package$@ Lbreeze/linalg/package$; JB	AC@        boxToDouble (D)Ljava/lang/Double;GH
+;I &(Ljava/lang/Object;)Ljava/lang/Object; K
+AL (Ljava/lang/Object;)V ÊN
+ O breeze/linalg/DenseVector$Q Lbreeze/linalg/DenseVector$; JS	RT rand$default$2 #()Lbreeze/stats/distributions/Rand;VW
+RX scala/reflect/ClassTag$Z Lscala/reflect/ClassTag$; J\	[] Double ()Lscala/reflect/ClassTag;_`
+[a rand R(ILbreeze/stats/distributions/Rand;Lscala/reflect/ClassTag;)Lbreeze/linalg/Vector;cd
+Re s_dv_Op_Double_OpMulMatrix ()Lbreeze/generic/UFunc$UImpl2;gh
+Ri $times C(Ljava/lang/Object;Lbreeze/generic/UFunc$UImpl2;)Ljava/lang/Object;kl
+ m !breeze/linalg/ImmutableNumericOpso dv_s_Op_Double_OpSubqh
+Rr $minustlpu r s
+ w  Ä
+ y å Ä
+ { count ()J}~
+ ˙ rdd ()Lorg/apache/spark/rdd/RDD;ÅÇ
+ ˙ÉK $anonfun$fit$2 T(ILbreeze/linalg/DenseVector;Lscala/collection/Iterator;)Lscala/collection/Iterator;Üá
+ àâ 8(Lscala/collection/Iterator;)Lscala/collection/Iterator;ã    /(ILbreeze/linalg/DenseVector;)Lscala/Function1; Íé è org/apache/spark/rdd/RDDë mapPartitions$default$2 ()Zìî
+íï +(Ljava/lang/Class;)Lscala/reflect/ClassTag; Íó
+[ò mapPartitions F(Lscala/Function1;ZLscala/reflect/ClassTag;)Lorg/apache/spark/rdd/RDD;öõ
+íú 8(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;û $anonfun$fit$4 S(Lbreeze/linalg/DenseVector;Lbreeze/linalg/DenseVector;)Lbreeze/linalg/DenseVector;†°
+ ¢£° ()Lscala/Function2; Í¶ ß reduce %(Lscala/Function2;)Ljava/lang/Object;©™
+í´ canSubIntoD %()Lbreeze/generic/UFunc$InPlaceImpl2;≠Æ
+RØ 	$minus$eq I(Ljava/lang/Object;Lbreeze/generic/UFunc$InPlaceImpl2;)Ljava/lang/Object;±≤
+ ≥ (DD)Dµ $anonfun$fit$5∑µ
+ ∏π apply$mcDDD$sp +()Lscala/runtime/java8/JFunction2$mcDDD$sp;ªº Ω foldLeft$mcD$sp 7(Ljava/lang/Object;Lscala/Function2;)Ljava/lang/Object;ø¿
+ ¡ unboxToDouble (Ljava/lang/Object;)D√ƒ
+;≈ .org/apache/spark/ml/made/LinearRegressionModel« #org/apache/spark/ml/linalg/Vectors$… %Lorg/apache/spark/ml/linalg/Vectors$; JÀ	 Ã 
+fromBreeze ;(Lbreeze/linalg/Vector;)Lorg/apache/spark/ml/linalg/Vector;Œœ
+ – &(Lorg/apache/spark/ml/linalg/Vector;)V Ê“
+»” copyValues$default$2 &()Lorg/apache/spark/ml/param/ParamMap;’÷
+ ◊ 
+copyValues j(Lorg/apache/spark/ml/param/Params;Lorg/apache/spark/ml/param/ParamMap;)Lorg/apache/spark/ml/param/Params;Ÿ⁄
+ € org/apache/spark/ml/Model› 	setParent <(Lorg/apache/spark/ml/Estimator;)Lorg/apache/spark/ml/Model;ﬂ‡
+ﬁ· $u  Lscala/reflect/api/JavaUniverse; $m +Lscala/reflect/api/JavaUniverse$JavaMirror; loss Lbreeze/linalg/DenseVector; 
+GradientL2 encoder Lorg/apache/spark/sql/Encoder; vectors Lorg/apache/spark/sql/Dataset; dim weights sampleCount meanlearningRate i 8org/apache/spark/sql/catalyst/encoders/ExpressionEncoderÛ copy E(Lorg/apache/spark/ml/param/ParamMap;)Lorg/apache/spark/ml/Estimator; w(Lorg/apache/spark/ml/param/ParamMap;)Lorg/apache/spark/ml/Estimator<Lorg/apache/spark/ml/made/LinearRegressionModel;>; extra defaultCopy H(Lorg/apache/spark/ml/param/ParamMap;)Lorg/apache/spark/ml/param/Params;˘˙
+ ˚ $Lorg/apache/spark/ml/param/ParamMap; transformSchema î ï
+ ˇıˆ
+  I(Lorg/apache/spark/ml/param/ParamMap;)Lorg/apache/spark/ml/PipelineStage; ;(Lorg/apache/spark/sql/Dataset;)Lorg/apache/spark/ml/Model; ≈ ∆
+  	vectors$1 first ()Ljava/lang/Object;	
+ ˙
+ !org/apache/spark/ml/linalg/Vector size s $anonfun$fit$3 \(ILbreeze/linalg/DenseVector;Lorg/apache/spark/ml/linalg/Vector;)Lbreeze/linalg/DenseVector; dim$1 	weights$1 row &org/apache/spark/ml/linalg/DenseVector scala/Predef$ Lscala/Predef$; J	 toArray ()[D doubleArrayOps ([D)[D!"
+# ([D)V Ê%
+ )& $plus$colon >(Ljava/lang/Object;Lscala/reflect/ClassTag;)Ljava/lang/Object;()
+ )* [D,
+& asBreeze ()Lbreeze/linalg/Vector;/0
+1 scala/runtime/RichInt$3 Lscala/runtime/RichInt$; J5	46 
+intWrapper (I)I89
+: until$extension0 &(II)Lscala/collection/immutable/Range;<=
+4> breeze/linalg/Tensor$@ Lbreeze/linalg/Tensor$; JB	AC canSliceTensor :(Lscala/reflect/ClassTag;)Lbreeze/linalg/support/CanSlice;EF
+AG breeze/linalg/VectorI F(Ljava/lang/Object;Lbreeze/linalg/support/CanSlice;)Ljava/lang/Object; ÍKJL toDenseVector$mcD$sp 5(Lscala/reflect/ClassTag;)Lbreeze/linalg/DenseVector;NOJP apply$mcID$sp (I)DRSJT $Lbreeze/linalg/DenseVector$canDotD$; JV	 W dotYl
+ Z vec Lbreeze/linalg/Vector; features y #Lorg/apache/spark/ml/linalg/Vector; 	partition
+ bc @(Lorg/apache/spark/ml/linalg/Vector;)Lbreeze/linalg/DenseVector;e è scala/collection/Iteratorh map .(Lscala/Function1;)Lscala/collection/Iterator;jkil Lscala/collection/Iterator; x$2 x$3 canAddDqh
+Rr $plustl
+ u x$4 x$5 java/lang/Mathy pow{µ
+z| ()V Ê~
+  $init$ 1(Lorg/apache/spark/ml/param/shared/HasInputCol;)VÅÇ ¶É 2(Lorg/apache/spark/ml/param/shared/HasOutputCol;)VÅÖ üÜ 4(Lorg/apache/spark/ml/made/LinearRegressionParams;)VÅà â ((Lorg/apache/spark/ml/util/MLWritable;)VÅã bå 3(Lorg/apache/spark/ml/util/DefaultParamsWritable;)VÅé 	è &org/apache/spark/ml/util/Identifiable$ë (Lorg/apache/spark/ml/util/Identifiable$; Jì	íî linearRegressionñ 	randomUID &(Ljava/lang/String;)Ljava/lang/String;òô
+íö Ê ^
+ ú $deserializeLambda$ 7(Ljava/lang/invoke/SerializedLambda;)Ljava/lang/Object; scala/runtime/LambdaDeserialize† 	bootstrap ì(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;[Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/CallSite;¢£
+°§• lambdaDeserializeßü ® 	Signature Code MethodParameters LineNumberTable LocalVariableTable 
+Exceptions StackMapTable InnerClasses 
+SourceFile RuntimeVisibleAnnotations BootstrapMethods ScalaInlineInfo ScalaSig !     	   : ;    < =    > ?    @ ?    A B ™    C  D B ™    C ( 	 E F ´         ≤ M∂ O∞    ™    G 	 P Q ´        ≤ M*∂ T∞    ¨    R   U V ´   /     *∏ Z∞   ≠       1Æ        [ \    ] ^ ´   :     *+∏ f±   ≠       1Æ        [ \      R ; Ø     `¨    R   g h ´   :     *+∏ m∞   ≠       1Æ        [ \      i ; ¨    i   n h ´   :     *+∏ q∞   ≠       1Æ        [ \      i ; ¨    i   r s ´   /     *∏ w¨   ≠       1Æ        [ \    x y ´   :     *∏ }∞   ≠       1Æ        [ \      i ~ ¨    i    Ä ´   /     *∏ ÑØ   ≠       1Æ        [ \    Ö Ü ´   :     *'∏ ä∞   ≠       1Æ        [ \      i ã ¨    i   å Ä ´   /     *∏ èØ   ≠       1Æ        [ \    ê Ü ´   :     *'∏ ì∞   ≠       1Æ        [ \      i ã ¨    i   î ï ´   :     *+∏ ö∞   ≠       1Æ        [ \      ñ õ ¨    ñ   ú ù ´   /     *∏ £∞   ≠       1Æ        [ \    § ù ´   /     *∏ ™∞   ≠       1Æ        [ \    < ´ ´   /     *¥ ≠∞   ≠       1Æ        [ \    > Æ ´   /     *¥ ∞∞   ≠       1Æ        [ \    @ Æ ´   /     *¥ ≤∞   ≠       1Æ        [ \    ≥ ¥ ´   :     *+µ ≠±   ≠       1Æ        [ \      µ = ¨    µ   ∂ ∑ ´   :     *+µ ∞±   ≠       1Æ        [ \      µ ? ¨    µ   ∏ ∑ ´   :     *+µ ≤±   ≠       1Æ        [ \      µ ? ¨    µ   A π ´   /     *¥ º∞   ≠       1Æ        [ \  ™    ∫  Ω æ ´   :     *+µ º±   ≠       1Æ        [ \      µ B ™    ø¨    µ   D π ´   /     *¥ ¡∞   ≠       1Æ        [ \  ™    ∫  ¬ æ ´   :     *+µ ¡±   ≠       1Æ        [ \      µ B ™    ø¨    µ   : ù ´   /     *¥ ƒ∞   ≠       1Æ        [ \    ≈ ∆ ´  ⁄    ï≤ Õ≤ “∂ ÷N≤ “∂ ÷∂ ‹π ‡ :-¿ 5π „ ¿ Âª &Y∑ È∂ Ì∂ M++**∂ Ú∂ ˆ¿ ¯∂ ˝,∂∂:≤+∂**∂ Ú∂ ˆ¿ ¯∂∂∂∫3  ∂9∏?6ª Y≤DE∏J∂M∑P≤U≤U∂Y≤^∂b∂f≤U∂j∂n¿p∏J≤U∂sπv ¿ :*∂x6*∂z9	*∂|9∂Ää9	o96§ à∂Ñ∫ê  ∂Ñ∂ñ≤^∂ô∂ù∫®  ∂¨¿ :ª Y≤D∏J∂M∑P≤U∂j∂n≤U∂∞∂¥W∏J∫æ  ∂¬∏∆9kòú 
+6ß `6ßˇw*ª»Y≤Õ∂—∑‘*∂ÿ∂‹¿ﬁ*∂‚¿»∞   ∞   / ˇ Á   ˙Ù 0 . ˙   ˝ Ç ˘ ≠   V    9 9 ; R = m > | @ √ B … C œ D ’ E › F ‰ H Á I Ó J Q SE WX Xc Yj [p Is ^Æ   ¢  
+ +„‰   ÂÊ  TÁË X È ã  9[ÍÎ  RBÏÌ  |Ó ~  √ —ÔË  … À < ~  œ ≈ > ã 	 ’ ø @ ã  › ∑ ã  ‰ ∞Ò ã  Á ≠Ú ~   ï [ \    ï »Ì ™    «¨    »  ıˆ ´   =     	*+∂¸¿ ∞   ≠       aÆ       	 [ \     	¯˝ ™   ˜¨   ¯  ˛ ï ´   :     *+∂ ∞   ≠       cÆ        [ \      ñ õ ¨    ñ Aı˙ ´   :     *+∂∞   ≠       1Æ        [ \     ¯˝ ¨   ¯ Aı ´   :     *+∂∞   ≠       1Æ        [ \     ¯˝ ¨   ¯ A ≈ ´   :     *+∂∞   ≠       1Æ        [ \      »Ì ¨    »  ! ´   7     *∂¿π ¨   ≠       >Æ       Ì  ¨     ´    	   ôªY9ª )Y≤,π  ∂$∑'∏J≤^∂b∂+¿-∑.∂2N-≤7≤∂;∂?≤D≤^∂b∂HπM ¿J≤^∂bπQ :-πU 9ª Y≤D+≤X∂[∏∆g∏J∂M∑P≤U∂j∂n¿ ∞   ≠       L 2 M b N k OÆ   >  2 f\]  b 6^Ë  k -_ ã    ô ~     ôË    ô` ¨      Üá ´   L     ,+∫g  πm ∞   ≠       KÆ         ~     Ë    an ¨     a †° ´   C     *+≤U∂s∂v¿ ∞   ≠       QÆ       oË     pË ¨   	o p ∑µ ´   >     
+&(E∏}cØ   ≠       WÆ       
+w ã     
+x ã ¨   	w x   Ê ^ ´   R     *+µ ƒ*∑Ä*∏Ñ*∏á*∏ä*∏ç*∏ê±   ≠       1Æ        [ \      : ; ¨    :   Ê~ ´   8     *≤ïó∂õ∑ù±   ≠       4Æ        [ \  
+ûü ´        *∫©  ∞     ±   R 
+   	   	    	     ! # $  &   '  ) + ,  . 0 1 3 5 6 8 5 9 ™    ≤    
+≥       s ¥   l / $%&(/ Öäåç&(&å/ ü§•ç&(&•/ ∂∫∂%&(/ Ödfç&(&f¶ $ä§∫dµ   Ω  % !Üá†°∑µ Ê~  Ê ^ ıˆ ı ı˙  @ Æ  ≈  ≈ ∆  å Ä  § ù r s   Ä  ú ù D π < ´  > Æ  ∏ ∑  ≥ ¥  ∂ ∑  ¬ æ Ω æ A π ] ^  ê Ü  g h  x y  Ö Ü  n h ˛ ï  : ù  î ï  U V ∂     
